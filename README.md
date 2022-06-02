@@ -5,3 +5,6 @@
 1. `yarn create next-app --typescript`
 2. Add .idea dir to .gitignore
 3. Move pages and styles under src
+4. Change base dir to src
+    - set baseUrl 'src' in tsconfig.json
+    - use absolute paths import
