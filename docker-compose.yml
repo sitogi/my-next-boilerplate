@@ -8,8 +8,8 @@ services:
       context: .
     volumes:
       - type: bind
-        source: ./
-        target: /app
-    command: sh -c "yarn install && yarn dev"
+        source: ./src
+        target: /app/src
+    command: yarn dev
     ports:
       - "3000:3000"
